@@ -7,17 +7,27 @@ const links = [
   },
   {
     ref: '02',
-    name: 'About',
+    name: 'Servicios',
     href: '/about',
   },
   {
     ref: '03',
-    name: 'Pricing',
+    name: 'Experiencia',
     href: '/pricing',
   },
   {
     ref: '04',
-    name: 'Contact',
+    name: 'Sobre nosotros',
+    href: '/contact',
+  },
+  {
+    ref: '05',
+    name: 'Testimonios',
+    href: '/contact',
+  },
+  {
+    ref: '06',
+    name: 'Contactanos',
     href: '/contact',
   },
 ];
@@ -42,8 +52,8 @@ const links = [
           class="h-12 w-auto"
           width="65"
           height="40"
-          :src="$store.theme.isDark ? '/assets/logo-inverted.svg' : '/assets/logo.png'"
-          alt="Stone"
+          src="/assets/logo.png"
+          alt="alta costura,taller de costura,moda,tienda,vestidos,egresos,tunuyán,mendoza,costura"
         />
       </a>
     </div>
@@ -136,14 +146,21 @@ const links = [
   >
     <div class="grid grid-cols-1 gap-16 pb-24 pt-6 lg:grid-cols-2 lg:pt-12">
       <div
-        class="bg-primary-500/10 dark:bg-primary-400/10 hidden items-center justify-center rounded-3xl px-6 py-8 lg:flex"
+        class="bg-primary-500/10 hidden items-center justify-center rounded-3xl px-6 py-8 lg:flex"
       >
-        <p
+      <img
+          class="w-auto"
+          width="65"
+          height="40"
+          src="/assets/bestido.png"
+          alt="alta costura,taller de costura,moda,tienda,vestidos,egresos,tunuyán,mendoza,costura"
+        />
+        <!-- <p
           class="text-primary-950/70 dark:text-primary-200/70 max-w-sm text-xl italic leading-loose"
         >
           <span class="font-medium">Stone</span> is a premium Astro theme specially designed for
           Business, Marketing, SaaS and Startup websites.
-        </p>
+        </p> -->
       </div>
 
       <!-- Navigation -->
